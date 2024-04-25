@@ -228,8 +228,8 @@ export default function Home() {
               alt="book"
             />
             <p className="text-black pt-2 pl-6">
-              The Girl Who
-              <br /> Knew Too Much.
+              Five Feet
+              <br /> Apart.
             </p>
           </div>
           </div>
