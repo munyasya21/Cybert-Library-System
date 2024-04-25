@@ -216,12 +216,12 @@ export default function Home() {
         </div>
       </div>
       <div className="pt-24">
-      <h1 className="  text-center text-5xl font-semibold"></h1>
+      <h1 className="  text-center text-5xl font-semibold">Categories</h1>
         <p></p>
       <div className="flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col ">
       <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
             <Image
-              src={Nov1}
+              src={Nov9}
               width={180}
               height={100}
               className="pl-6 justify-center items-center"
