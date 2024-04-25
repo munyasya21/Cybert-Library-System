@@ -103,6 +103,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      {/* Products */}
       <div className="pt-24">
         <h1 className="  text-center text-5xl font-semibold">Products</h1>
         <p></p>
@@ -128,7 +129,7 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
+            <p className="text-black pt-2 pl-6">
               The Subtitle Of
               <br /> Not Giving A F***.
             </p>
@@ -141,8 +142,8 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
-             All The Light 
+            <p className="text-black pt-2 pl-6">
+              All The Light
               <br /> We Cannot See.
             </p>
           </div>
@@ -154,8 +155,8 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
-              If Only I Had 
+            <p className="text-black pt-2 pl-6">
+              If Only I Had
               <br /> Told Her.
             </p>
           </div>
@@ -170,7 +171,7 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
+            <p className="text-black pt-2 pl-6">
               It Ends With
               <br /> Us.
             </p>
@@ -183,8 +184,8 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
-             Patience Is A
+            <p className="text-black pt-2 pl-6">
+              Patience Is A
               <br /> Subtle Thief.
             </p>
           </div>
@@ -196,9 +197,10 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
+            <p className="text-black pt-2 pl-6">
               The Psychology
-              <br />Of Money.
+              <br />
+              Of Money.
             </p>
           </div>
           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
@@ -209,13 +211,29 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
-             <p className="text-black pt-2 pl-6">
-              Hooked
-             
-            </p>
+            <p className="text-black pt-2 pl-6">Hooked</p>
           </div>
         </div>
       </div>
+      <div className="pt-24">
+      <h1 className="  text-center text-5xl font-semibold"></h1>
+        <p></p>
+      <div className="flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col ">
+      <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
+            <Image
+              src={Nov1}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
+            />
+            <p className="text-black pt-2 pl-6">
+              The Girl Who
+              <br /> Knew Too Much.
+            </p>
+          </div>
+          </div>
+          </div>
     </section>
   );
 }
