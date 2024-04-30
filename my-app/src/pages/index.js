@@ -332,6 +332,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* What People Say */}
+      <div>
+<h1>What People Say</h1>
+      </div>
     </section>
   );
 }
