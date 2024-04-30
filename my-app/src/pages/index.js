@@ -276,7 +276,7 @@ export default function Home() {
       </div>
       {/* News&Blogs */}
       <div className="pt-24">
-        <h1 className="">News&Blogs</h1>
+        <h1 className="text-center text-5xl font-semibold">News & Blogs</h1>
        <div className="flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col ">
           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
             <Image
