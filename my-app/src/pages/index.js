@@ -277,7 +277,7 @@ export default function Home() {
       {/* News&Blogs */}
       <div className="pt-24">
         <h1 className="text-center text-5xl font-semibold">News & Blogs</h1>
-       <div className="flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col ">
+        <div className="flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col ">
           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
             <Image
               src={Nov9}
@@ -333,8 +333,12 @@ export default function Home() {
         </div>
       </div>
       {/* What People Say */}
-      <div>
-<h1>What People Say</h1>
+      <div className="pt-24 pl-24">
+        <h1 className="text-center text-5xl font-semibold">What People Say</h1>
+        <p >Your feedback means alot</p>
+        <div className="flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col ">
+        <div className="flex flex-col bg-white rounded-lg pb-24  justify-center gap-4 w-72 h-96   transition-transform duration-300 transform hover:scale-105 "></div>
+      </div>
       </div>
     </section>
   );
